@@ -30,3 +30,23 @@ Version 2 expands the initial motor-control schematic with additional monitoring
 The design is still in progress. Battery protection thresholds, component ratings, and final electrical validation have not yet been completed.
 
 [View Schematic V2](Motorsports_Onboarding_Schematic2.pdf)
+
+## Schematic V3 — Protection Circuit Development and Design Review
+
+Version 3 builds on the previous schematic by further developing the battery-protection and motor-current monitoring systems.
+
+**Key updates:**
+- Expanded the LM393 comparator circuitry for battery undervoltage detection.
+- Added a MOSFET-based battery cutoff stage.
+- Developed motor overcurrent detection using the existing LM358 current-sensing circuit.
+- Added an overcurrent alert signal to the Arduino Nano.
+- Updated provisional resistor values and voltage thresholds.
+- Selected a proposed 6S2P configuration using standard 1.5V alkaline AA batteries.
+
+**Current Status: Design Review**
+
+The schematic has reached a preliminary design-review stage. Battery protection, fuse and component ratings, power distribution, and shutdown behavior still require verification.
+
+The next phase will involve incorporating team-lead feedback, finalizing the electrical design, and preparing for physical assembly and testing.
+
+[View Schematic V3](Motorsports_Onboarding_Schematic3.pdf)
