@@ -51,11 +51,11 @@ The next phase will involve incorporating team-lead feedback, finalizing the ele
 
 [View Schematic V3](Motorsports_Onboarding_Schematic3.pdf)
 
-## Building Progress Log
+# Building Progress Log
 
-**November 21, 2026 — 555 Timer LED Blinking Circuit**
+## 11/21 — 555 Timer LED Blinking Circuit
 
-Objective: Build and test an LED blinking circuit using a 555 timer IC.
+**Objective: Build and test an LED blinking circuit using a 555 timer IC.**
 
 Successfully demonstrated an LED blinking using a 555 timer configured in astable mode. In this configuration, the timer continuously switches its output between HIGH and LOW, allowing the LED to blink automatically without requiring an Arduino or programmed instructions.
 
