@@ -46,7 +46,7 @@ The design is still in progress. Battery protection thresholds, component rating
 
 Version 3 builds on the previous schematic by further developing the battery-protection and motor-current monitoring systems.
 
-**Key updates:**
+**11/17 Key updates:**
 - Expanded the LM393 comparator circuitry for battery undervoltage detection.
 - Added a MOSFET-based battery cutoff stage.
 - Developed motor overcurrent detection using the existing LM358 current-sensing circuit.
