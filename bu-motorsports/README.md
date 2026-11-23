@@ -16,9 +16,14 @@ The project uses an Arduino to control a DC motor through a MOSFET, while shunt 
 # Schematics
 The following schematic versions document the development of the electrical system, from the initial motor-control design to expanded sensing and battery-protection circuitry.
 
-## Schematic V1
-Initial KiCad schematic for an Arduino-based
-DC motor control system.
+## Schematic V1 — Initial Circuit Design
+The first version of the schematic was created in KiCad to outline the main electrical components and how they would work together.
+
+The design includes an Arduino Nano to control a DC motor through a MOSFET, a flyback diode for motor protection, and a 555 timer circuit for blinking an LED. It also introduces a shunt resistor and LM358 operational amplifier for measuring motor current, along with a voltage divider for monitoring battery voltage.
+
+The initial design also includes a proposed 3S2P AA battery configuration, a 5V boost converter, and a potential wheel-speed sensor.
+
+At this stage, the schematic was mainly focused on planning component connections and overall circuit functionality. Several components and connections were still marked as TBD, particularly the current-sensing circuit, power supply, and wheel-speed sensor. These would be addressed in later revisions.
 
 [View Schematic V1](Motorsports_Onboarding_Schematic1.pdf)
 
