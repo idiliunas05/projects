@@ -61,4 +61,13 @@ Successfully demonstrated an LED blinking using a 555 timer configured in astabl
 
 The blinking frequency is controlled by the resistors and capacitor connected to the timer. As the capacitor charges and discharges, the 555 timer switches its output, turning the LED on and off.
 
-[View 555 Blinking LED](Motorsports_Onboarding_555Timer.mov)
+## 11/22 — Motor Control and Current Sensing
+
+**Objective: Work on the motor-driving circuit and develop a method to monitor the current flowing through the motor.**
+
+This stage focuses on three main components:
+- Shunt resistors: Two 0.05 Ω (R05) resistors connected in series, creating a combined resistance of 0.1 Ω. The voltage drop across the shunt provides a way to measure current flowing through the motor circuit.
+- MOSFET: Used as an electronic switch to control the DC motor. The Arduino can send a PWM signal to the MOSFET gate to regulate motor operation.
+- LM358 operational amplifier: Amplifies the small voltage difference across the shunt resistors, making the signal easier for the Arduino to measure.
+
+Together, these components form the motor-control and current-sensing portion of the onboarding project. The goal is to control the motor electronically while using its current draw to help determine whether it is operating.
