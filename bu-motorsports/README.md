@@ -61,4 +61,4 @@ Successfully demonstrated an LED blinking using a 555 timer configured in astabl
 
 The blinking frequency is controlled by the resistors and capacitor connected to the timer. As the capacitor charges and discharges, the 555 timer switches its output, turning the LED on and off.
 
-[View 555 Blinking LED](Motorsports_Onboarding_555Timer.pdf)
+[View 555 Blinking LED](Motorsports_Onboarding_555Timer.mov)
