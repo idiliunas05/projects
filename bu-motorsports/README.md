@@ -82,3 +82,8 @@ This stage focuses on three main components:
 - LM358 operational amplifier: Amplifies the small voltage difference across the shunt resistors, making the signal easier for the Arduino to measure.
 
 Together, these components form the motor-control and current-sensing portion of the onboarding project. The goal is to control the motor electronically while using its current draw to help determine whether it is operating.
+
+[View MOSFET V1](Onboarding_MOSFET_V1.pdf)
+[View LM358 V1](Onboarding_LM358_V1.pdf)
+
+
