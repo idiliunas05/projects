@@ -1,13 +1,19 @@
 # BU Motorsports — Motor Control Project
 
-Documentation of my Arduino-based DC motor control project.
+An electrical engineering onboarding project for BU Motorsports focused on designing, building, and testing an Arduino-based DC motor control and monitoring circuit.
+
+The project uses an Arduino to control a DC motor through a MOSFET, while shunt resistors and an LM358 operational amplifier are used to measure motor current. It also includes a 555 timer circuit to control a blinking LED.
+
+*Documentation of my Arduino-based DC motor control project.*
 
 ## Project Progress
 - Initial circuit design
 - KiCad schematic development
-- Circuit testing and revisions
+- Circuit assembly and soldering
+- Component testing and revisions
+- Motor control and current sensing
 
-## Schematics
+# Schematics
 The following schematic versions document the development of the electrical system, from the initial motor-control design to expanded sensing and battery-protection circuitry.
 
 ## Schematic V1
