@@ -60,3 +60,5 @@ The next phase will involve incorporating team-lead feedback, finalizing the ele
 Successfully demonstrated an LED blinking using a 555 timer configured in astable mode. In this configuration, the timer continuously switches its output between HIGH and LOW, allowing the LED to blink automatically without requiring an Arduino or programmed instructions.
 
 The blinking frequency is controlled by the resistors and capacitor connected to the timer. As the capacitor charges and discharges, the 555 timer switches its output, turning the LED on and off.
+
+[View 555 Blinking LED](Motorsports_Onboarding_555Timer.pdf)
