@@ -104,3 +104,8 @@ The 555 timer LED circuit was also tested alongside the motor. While the LED bli
 - Identified an issue with the 555 timer's blinking behavior during motor operation.
 
 **Next Steps:** Troubleshoot the LED timing issue, complete the LM358 current-sensing connections, and continue integrating the remaining components.
+
+[View MOSFET V2](MOSFET_V2.pdf)
+[View Shunts](Shunts.pdf)
+[View LM358 V1](LM358_V2.pdf)
+[View Battery + Shunts](Battery_Shunts_V1.pdf)
