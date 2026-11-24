@@ -105,7 +105,7 @@ The 555 timer LED circuit was also tested alongside the motor. While the LED bli
 
 **Next Steps:** Troubleshoot the LED timing issue, complete the LM358 current-sensing connections, and continue integrating the remaining components.
 
-[View MOSFET V2](photos/MOSFET_V2.pdf)
-[View Shunts](photos/Shunts.pdf)
-[View LM358 V1](photos/LM358_V2.pdf)
-[View Battery + Shunts](photos/Battery_Shunts_V1.pdf)
+[View MOSFET V2](pictures/MOSFET_V2.pdf)
+[View Shunts](pictures/Shunts.pdf)
+[View LM358 V1](pictures/LM358_V2.pdf)
+[View Battery + Shunts](pictures/Battery_Shunts_V1.pdf)
