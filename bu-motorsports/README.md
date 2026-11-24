@@ -25,7 +25,7 @@ The initial design also includes a proposed 3S2P AA battery configuration, a 5V 
 
 At this stage, the schematic was mainly focused on planning component connections and overall circuit functionality. Several components and connections were still marked as TBD, particularly the current-sensing circuit, power supply, and wheel-speed sensor. These would be addressed in later revisions.
 
-[View Schematic V1](Motorsports_Onboarding_Schematic1.pdf)
+[View Schematic V1](schematics/Motorsports_Onboarding_Schematic1.pdf)
 
 ## Schematic V2 — Current Sensing and Battery Protection
 
@@ -40,7 +40,7 @@ Version 2 expands the initial motor-control schematic with additional monitoring
 
 The design is still in progress. Battery protection thresholds, component ratings, and final electrical validation have not yet been completed.
 
-[View Schematic V2](Motorsports_Onboarding_Schematic2.pdf)
+[View Schematic V2](schematics/Motorsports_Onboarding_Schematic2.pdf)
 
 ## Schematic V3 — Protection Circuit Development and Design Review
 
@@ -60,7 +60,7 @@ The schematic has reached a preliminary design-review stage. Battery protection,
 
 The next phase will involve incorporating team-lead feedback, finalizing the electrical design, and preparing for physical assembly and testing.
 
-[View Schematic V3](Motorsports_Onboarding_Schematic3.pdf)
+[View Schematic V3](schematics/Motorsports_Onboarding_Schematic3.pdf)
 
 # Building Progress Log
 
@@ -83,8 +83,8 @@ This stage focuses on three main components:
 
 Together, these components form the motor-control and current-sensing portion of the onboarding project. The goal is to control the motor electronically while using its current draw to help determine whether it is operating.
 
-[View MOSFET V1](Onboarding_MOSFET_V1.pdf)
-[View LM358 V1](Onboarding_LM358_V1.pdf)
+[View MOSFET V1](pictures/Onboarding_MOSFET_V1.pdf)
+[View LM358 V1](pictures/Onboarding_LM358_V1.pdf)
 
 ## 11/23 — Circuit Assembly and Motor Testing
 
@@ -106,6 +106,6 @@ The 555 timer LED circuit was also tested alongside the motor. While the LED bli
 **Next Steps:** Troubleshoot the LED timing issue, complete the LM358 current-sensing connections, and continue integrating the remaining components.
 
 [View MOSFET V2](pictures/MOSFET_V2.pdf)
-[View Shunts](pictures/Shunts.pdf)
+[View Fuses](pictures/Fuses.pdf)
 [View LM358 V1](pictures/LM358_V2.pdf)
 [View Battery + Shunts](pictures/Battery_Shunts_V1.pdf)
