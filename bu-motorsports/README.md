@@ -86,4 +86,21 @@ Together, these components form the motor-control and current-sensing portion of
 [View MOSFET V1](Onboarding_MOSFET_V1.pdf)
 [View LM358 V1](Onboarding_LM358_V1.pdf)
 
+## 11/23 — Circuit Assembly and Motor Testing
 
+**Objective:** Assemble and test the motor control circuit, including the MOSFET, shunt resistors, and battery connections.
+
+Continued assembling the circuit by soldering components and connecting the motor to its power supply. Added the shunt resistors for current sensing, connected the MOSFET for motor control, and wired the battery holder to provide power to the motor. Also incorporated a flyback diode for protection against voltage spikes when switching the motor off.
+
+After completing the connections, tested the motor using an Arduino Uno and a simple control program. Successfully got the motor to spin and stop using commands sent through the Arduino Serial Monitor, confirming that the basic motor-driving circuit was functional.
+
+The 555 timer LED circuit was also tested alongside the motor. While the LED blinked normally when the motor was off, its blinking became irregular when the motor started running. This will require further troubleshooting, particularly around the timer's control signal and potential electrical interference from the motor.
+
+**Results:**
+- Soldered and connected the main motor-driving components.
+- Installed the shunt resistors for future current measurements.
+- Connected the battery holder and motor power supply.
+- Successfully controlled the motor through the Arduino.
+- Identified an issue with the 555 timer's blinking behavior during motor operation.
+
+**Next Steps:** Troubleshoot the LED timing issue, complete the LM358 current-sensing connections, and continue integrating the remaining components.
